@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: amirkasseb/linux-metrics-frontend:latest
+    networks:
+      - metrics
+    ports:
+      - "80:80"
+
+  backend:
+    image: amirkasseb/linux-metrics-backend:latest
+    networks:
+      - metrics
+    ports:
+      - "5000:5000"
+
+networks:
+  metrics:
+    driver: bridge
