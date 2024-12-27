@@ -27,8 +27,8 @@ Getting Started
 1.  **Clone the repository:**
     
         
-        git clone <your-repo-url>
-        cd Metrics-Linux
+        git clone https://github.com/AmirKaseb/docker-linux-resource-app.git
+        cd docker-linux-resource-app
                     
     
 2.  **Update the frontend configuration:**
