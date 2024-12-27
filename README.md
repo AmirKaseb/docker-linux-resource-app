@@ -1,5 +1,3 @@
-  Linux Metrics Application
-
 Linux Metrics Application
 =========================
 
@@ -76,13 +74,9 @@ Project Structure
 Images Demo
 -----------
 
-### Frontend
+### Application 
 
-\[Add a frontend demo image here\]
-
-### Backend
-
-\[Add a backend demo image here\]
+![Frontend Demo](assests/demo.png)
 
 * * *
 

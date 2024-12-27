@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const HISTORY_LENGTH = 20;
-const METRICS_URL = 'http://18.194.179.32:5000/metrics'; // Adjust to the actual URL for fetching metrics
+const METRICS_URL = 'http://localhost:5000/metrics'; // Adjust to the actual URL for fetching metrics
 const POLLING_INTERVAL = 2000; // Polling every 2 seconds
 
 interface Metrics {
